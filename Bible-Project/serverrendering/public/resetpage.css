@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+   
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E3F2FD;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    
+}
+.container{
+    width: 660px;
+    height: 420px;
+    background-color: white;
+    margin-top: 40px;
+    padding: 15px;
+    border-radius: 10px;
+}
+p{
+    
+         font-size: 19px;
+        font-weight: lighter;
+        color:black;
+}
+input{
+    height: 45px;
+  width: 580px;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+button{
+    height: 45px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color:#9b59b6;
+    margin-left: 10px;
+}
+button:hover{
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+#getemail{
+    color: black;
+}
+h1{
+    font-size: 30px;
+        font-weight: lighter;
+
+        color: gray;
+}
+@keyframes shake{
+    0%{transform :translate(0);}
+    25%{transform :translate(-10px);}
+    50%{transform :translate(10px);}
+    75%{transform :translate(-10px);}
+    100%{transform :translate(0);}
+  }
+.shake{
+    animation:shake 0.5s ease;
+  }
+  @media(   max-width: 580px){
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    width: 100%;
+}
+  }

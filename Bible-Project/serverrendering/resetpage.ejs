@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reset password</title>
+    <script src="resetpage.js"></script>
+    <link rel="stylesheet" href="resetpage.css">
+    <link rel="icon" href="favicon-16x16.png" type="image/png">
+</head>
+<body>
+    <div class="container">
+        <h1>Enter your new password</h1><br>
+        <br>
+        <form action="/resetpassword" method="post">
+            <p>Reset Key</p> <input type="text" name="resetKey" id="inputvaluereset"><br><br>
+       <p>Password</p> <input type="text" name="emailpass" id="inputvaluepass"><br><br>
+       <p>Confirm Password</p> <input type="text" name="emailpassconfirm" id="inputvalueconfirm"><br>
+       <p id="errorvalue"></p>
+       <br><br>
+<button type="submit" id="submitbutton">Reset my password</button>
+</form>
+    </div>
+</body>
+</html>
